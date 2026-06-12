@@ -21,7 +21,7 @@ fastpfor = ["freestiler-core/fastpfor"]
 fsst = ["freestiler-core/fsst"]
 
 [dependencies]
-pyo3 = { version = "0.24", features = ["extension-module"] }
+pyo3 = { version = "0.29", features = ["extension-module"] }
 freestiler-core = { path = "../src/rust/freestiler-core" }
 
 # Needed directly for WKB parsing and geometry type conversion
